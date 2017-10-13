@@ -385,7 +385,7 @@ class Spectrometer(object):
 		return self._send_command(self.cmd_stop_sequence, self.channel)
 
 if __name__ == '__main__':
-	integration_time = 10 # [seconds]
+	integration_time = 1.5 # [seconds]
 	location = '/home/pi/spectrometer/spectrums'
 #	prefix = 'spectrum'
 	
